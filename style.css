@@ -1,0 +1,68 @@
+/*
+Theme Name: Alpha
+Theme URI: https://mashudrana.com/
+Author: Md. Mashud Rana
+Author URI: https://mashudrana.com/
+Description: Alpha brings your site to life with immersive featured images and subtle animations. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: alpha
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+h1.heading {
+    font-family: "Arial Black";
+    width: 700px;
+    margin: auto;
+    margin-bottom: 70px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+h3.tagline{
+    font-family: Arial;
+    margin:auto;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    width: 700px;
+    text-align: center;
+}
+
+h2.post-title {
+    margin-bottom: 30px;
+}
+
+.post {
+    margin-bottom: 50px;
+}
+
+.post p{
+    font-family: "Helvetica Neue";
+    line-height: 1.7em;
+    font-size: 18px;
+}
+
+.post .row:nth-child(2) {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.post:last-child .row:nth-child(2){
+    border-bottom:none;
+}
+
+.footer{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #222;
+    color:#ccc;
+}
+
+.tags li{
+    color: #3D9970;
+}
