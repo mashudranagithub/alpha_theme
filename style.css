@@ -66,3 +66,24 @@ h2.post-title {
 .tags li{
     color: #3D9970;
 }
+
+.list-unstyled li{
+    display: inline-block;
+    margin-right:6px;
+}
+
+.list-unstyled li a{
+    text-decoration: none;
+    color: rgb(3, 204, 3);
+    font-size: 14px;
+    background: rgba(234, 234, 234, 0.6);
+    border-radius: 5px;
+    padding: 5px 7px;
+    text-transform:capitalize;
+    transition:all 0.3s;
+}
+
+.list-unstyled li a:hover{
+    background:red;
+    color:#000;
+}
