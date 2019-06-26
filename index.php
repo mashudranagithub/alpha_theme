@@ -60,6 +60,18 @@
     }
     ?>
     </div>
+
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col-md-12 text-center">
+                <?php 
+                    the_posts_pagination(array(
+                        "screen_reader_text"=>" ",
+                    ));
+                ?>
+            </div>
+        </div>
+    </div>
     <div class="footer">
         <div class="container">
             <div class="row">

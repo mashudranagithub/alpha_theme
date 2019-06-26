@@ -87,3 +87,7 @@ h2.post-title {
     background:red;
     color:#000;
 }
+
+.navigation.pagination{
+    display:inline-block !important;
+}
