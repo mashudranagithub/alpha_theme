@@ -8,7 +8,7 @@
 
     function alpha_assets(){
         wp_enqueue_style("alpha", get_stylesheet_uri());
-        wp_enqueue_style("bootstrap", "//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
+        wp_enqueue_style("bootstrap", get_template_directory_uri()."/assets/css/bootstrap.min.css");
     }
     add_action("wp_enqueue_scripts", "alpha_assets");
 ?>
