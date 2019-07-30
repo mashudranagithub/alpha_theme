@@ -3,6 +3,8 @@
         load_theme_textdomain( "alpha");
         add_theme_support("post-thumbnails");
         add_theme_support("title-tag");
+        register_nav_menu("top-menu", __("Top Menu", "alpha"));
+        register_nav_menu("footer-menu", __("Footer Menu", "alpha"));
     }
     add_action("after_setup_theme", "alpha_bootstrapping");
 
@@ -57,3 +59,10 @@
         return "Password Locked → %s";
     }
     add_filter("protected_title_format", "alpha_protected_title_change");
+
+
+    function alpha_menu_item_class($classes, $item){
+        $classes[] = 'list-inline-item';
+        return $classes;
+    }
+    add_filter("nav_menu_css_class", "alpha_menu_item_class", 10, 2);
