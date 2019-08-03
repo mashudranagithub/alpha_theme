@@ -12,6 +12,9 @@
                         );
                     ?>
                 </div>
+
+                <div class="col-md-12"><hr></div>
+                
                 <div class="col-md-6">
                     <?php if(is_active_sidebar("footer-left")){
                         dynamic_sidebar("footer-left");
